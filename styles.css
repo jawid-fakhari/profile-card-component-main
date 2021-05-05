@@ -1,0 +1,111 @@
+/* devo fare in modo che cambi il formato per il cell */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  color: hsl(227, 10%, 46%);
+  font-weight: 300;
+  line-height: 150%;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+
+td {
+  width: 6rem;
+}
+
+hr {
+  border-style: solid hidden hidden;
+}
+
+/* top blob */
+.blob-top {
+  position: absolute;
+  top: -32rem;
+  left: -20rem;
+  max-width: 100%;
+}
+
+/* carta centrale */
+.outline-card {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 150px;
+  width: 23rem;
+  height: 23rem;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.pattern {
+  width: 23rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.ragazzo {
+  border-radius: 100%;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  position: relative;
+  bottom: 50px;
+  z-index: 2;
+}
+
+/* names, numbers, tabels */
+.wieght-700 {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  margin-top: -50px;
+}
+
+#age {
+  font-weight: 300;
+}
+
+.city {
+  font-size: 14px;
+}
+
+.light-12px {
+  font-size: 12px;
+}
+
+/* bottom blob */
+.outer {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.blob-bottom {
+  position: relative;
+  right: -15rem;
+  bottom: -45rem;
+  max-width: 100%;
+}
+
+.attribution {
+  color: black;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  font-size: 10px;
+  opacity: 80%;
+}
